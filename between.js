@@ -1,0 +1,1 @@
+db.productos.find({$and: [{price: {$gt:1000}}, {price: {$lt:3000}}]}).pretty()
